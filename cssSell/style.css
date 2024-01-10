@@ -1,0 +1,337 @@
+/* FONTS */
+
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* GLOBAL STYLES */
+*{
+    background-image: url(NFT\ marketing.png);
+}
+*{
+background-image: url(bitcoin.png);
+}
+
+{
+
+  display: flex;
+
+  
+
+  align-items: left;
+
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+
+}
+
+.col-1
+
+{
+
+  flex-basis: 50%;
+
+  min-width: 300px;
+
+}
+
+.form-box
+
+{
+
+  width: 300px;
+
+height: 400px;
+
+position: left;
+
+  top: 50px;
+
+  left: 120px;
+
+
+
+}
+
+.main-heading
+
+{
+
+  color: orangered;
+
+  padding-bottom: 20px;
+
+}
+
+.form
+
+{
+
+position: relative;
+
+margin: 0 auto 100px;
+
+padding: 45px;
+
+  text-align: center;
+
+}
+
+.form input
+
+{
+  
+
+font-family: sans-serif;
+
+outline: none;
+
+  border: none;
+
+  
+
+width: 100%;
+
+margin: 0 0 15px;
+
+padding: 15px;
+
+font-size: 14px;
+
+color: white;
+
+}
+
+.form button
+
+{
+  
+
+font-family: sans-serif;
+
+width: 100%;
+
+  color: white;
+
+font-size: 14px;
+
+cursor: pointer;
+
+padding: 15px;
+
+  border: none;
+
+  background: coral;
+
+}
+
+.form .message
+
+{
+ 
+  font-size: 12px;
+
+margin: 15px 0 0;
+
+  color: white;
+
+}
+
+.form .message a
+
+{
+  
+color: orangered;
+
+text-decoration: none;
+
+}
+
+.form .register-form{
+  
+display: none;
+
+}
+
+.defination
+
+{
+
+  text-align: left;
+
+  font-size: 30px;
+
+  color: white;
+
+  font-family: 'Kaushan Script', cursive;
+
+  padding-left: 60px;
+
+}
+
+:root {
+  --font-primary: 'Poppins', sans-serif;
+  --font-secondary: 'Arvo', serif;
+  --font-code: 'Roboto', monospace;
+  --bg-color:yellow;
+  --font-color: #ffffff;
+  --btn-bg-color: #ffffff;
+  --accent-color: #be7efe;
+  --header-shadow: #000 0px 0px 5px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  color: var(--font-color);
+  font-family: var(--font-primary);
+}
+
+.container-3 {
+    background-image: url(NFT\ marketing.png);
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+/* HEADER */
+
+header {
+  box-shadow: var(--header-shadow);
+}
+
+header .container {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: ;
+}
+
+.menu {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+/* BUTTONS */
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: var(--btn-bg-color);
+  color: var(--accent-color);
+  font-family: var(--font-secondary);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+  box-shadow: 4px 4px 0 0 var(--accent-color);
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  outline: none;
+}
+.btn:hover {
+  box-shadow: none;
+}
+
+.wallet-btn {
+  border-radius: 5rem;
+  margin-left: 2rem;
+  border-color: transparent;
+}
+
+.hero-btn {
+  border-radius: 4px;
+  font-size: 1.2rem;
+  padding: 1.5rem 3rem;
+}
+
+
+/* OWNER STYLES */
+
+.owner-status {
+  font-size: 2rem;
+  text-align: center;
+}
+/* Apply a basic style reset to remove default margin and padding */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Style form sections */
+.container section {
+    background-color: #f5f5f5;
+    padding: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form headings */
+.container section h3 {
+    color: #333;
+}
+
+/* Style form labels */
+.form-label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* Style form inputs and textareas */
+.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style file input */
+.form-control[type="file"] {
+    padding: 5px;
+}
+
+/* Style submit button */
+.btn-dark {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style form validation feedback */
+.valid-feedback {
+    color: rgb(15, 16, 15);
+}
+
+/* Style form rows */
+.row {
+    margin-bottom: 15px;
+}
+
+/* Responsive styling for small screens */
+
+
+
+
+
